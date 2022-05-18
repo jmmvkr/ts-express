@@ -25,7 +25,8 @@
 
     /* Customized */
     "outDir": "./dist",
-	"module": "es6", 
+	"module": "es6",
+	"moduleResolution": "node",
 
     /* Modules */
     // "module": "commonjs",                                /* Specify what module code is generated. */
