@@ -1,0 +1,5 @@
+
+> step02_esmodule@1.0.0 build
+> npx tsc
+
+index.ts(2,20): error TS2792: Cannot find module 'dotenv'. Did you mean to set the 'moduleResolution' option to 'node', or to add aliases to the 'paths' option?
