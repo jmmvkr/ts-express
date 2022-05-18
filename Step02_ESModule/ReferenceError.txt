@@ -1,0 +1,16 @@
+
+> step02_esmodule@1.0.0 start
+> node dist/index.js
+
+file:///D:/jmmvk/Desktop/aha/es4/ts-express/Step02_ESModule/dist/index.js:5
+Object.defineProperty(exports, "__esModule", { value: true });
+                      ^
+
+ReferenceError: exports is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\jmmvk\Desktop\aha\es4\ts-express\Step02_ESModule\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/jmmvk/Desktop/aha/es4/ts-express/Step02_ESModule/dist/index.js:5:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
