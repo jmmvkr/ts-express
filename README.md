@@ -24,3 +24,4 @@ A guide of how to bring up an Express.js server project in TypeScript
 
 # Verification of Project Settings
 npm run build && npm start
+## Note: verification can be done by ./verify.sh
